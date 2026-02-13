@@ -70,7 +70,7 @@ class WorldLevel {
 
     noStroke();
 
-    // Draw obstacles (we’ll modify next)
+    // Draw obstacles
     for (const o of this.obstacles) {
       if (o.y > mid) {
         fill(255, 204, 0); // yellow for bottom half obstacles
